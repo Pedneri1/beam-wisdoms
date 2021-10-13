@@ -1,20 +1,23 @@
 .. BEAM VM Wisdoms documentation master file
 
-Welcome, adventurer!
+Bem-vindo(a), aventureiro(a)!
 ====================
 
-This is the collection of easy to read (ELI5) articles as well as in-depth
-knowledge such as VM internals, memory layout, opcodes etc.
-The project is work in progress, so come back soon!
-Github repository for pages https://github.com/kvakvs/beam-wisdoms
+Esta é uma coleção de artigos de fácil leitura bem como artigos de conteúdo em profundidade
+sobre o funcionamento interno da VM, layout de memória, opcodes e etc.
+Este projeto é um trabalho em andamento, volte em breve.
 
-Latest
+Repositório do Github para as páginas em português https://github.com/Pedneri1/beam-wisdoms.git
+
+Repositório do Github com conteúdo original, em inglês https://github.com/kvakvs/beam-wisdoms
+
+Atualizações
 ``````
 
 *   2019-03-03  Binary match opcodes added to the instruction list
 *   2018-12-30  Try/catch opcodes added to the instruction list
 
-ELI5 Section (Explain Me Like I'm Five)
+Seção ELI5 (Explain Me Like I'm Five / Explique-me como se tivesse cinco)
 ---------------------------------------
 
 .. toctree::
@@ -34,7 +37,7 @@ ELI5 Section (Explain Me Like I'm Five)
     eli5-efficiency-memory-perf
 
 
-Deeper Knowledge Section
+Seção de conteúdo aprofundado
 ------------------------
 
 .. toctree::
@@ -58,6 +61,6 @@ Deeper Knowledge Section
     Process: Exceptions;
     Ext term format
 
-Smaller things you would've never noticed otherwise. OTP C source-related.
+Pequenas coisas que você não teria notado se não estivessem aqui. Relacionado à fonte OTP C
 
 :doc:`otp-c-style-guide`, :doc:`otp-cpp-ramblings`, :doc:`otp-c-refactor-todo`
