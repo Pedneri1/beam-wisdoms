@@ -8,5 +8,7 @@ of other languages (Elixir, LFE, Alpaca, Joxa, Efene etc).
 
 ## Building
 
-* Install Sphinx doc generator
-    * Alternative way [Ubuntu]: Install `python3`, `python3-pip` and do `pip install sphinx`
+- Install Sphinx doc generator:
+  - `pip install -U Sphinx`
+- Build with:
+  - `sphinx-build -b html docs/source/ docs/build/html`
